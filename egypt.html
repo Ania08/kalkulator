@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="fontello-6155f709/css/fontello.css">
+    <link rel="stylesheet" href="fontello-6155f709/css/fontello-codes.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body onload="showTime()">
+    <div id="container">
+        <div id="logo">
+            Egypt is much more <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;than just Pyramids!
+        </div>
+        <div id="clock"></div>
+        <div class="navbar">
+            <a href="#home" >Home</a>
+            <a href="#home" >About</a>
+            <div class="dropdown">
+                <button class="dropbtn">Life
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#" >Link1</a>
+                    <a href="#" >Link2</a>
+                    <a href="#" >Link3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Kitchen
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#" >Link1</a>
+                    <a href="#" >Link2</a>
+                    <a href="#" >Link3</a>
+                </div>
+            </div>
+            <div  class="dropdown">
+                <button class="dropbtn">Sightseeing
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#" >Link1</a>
+                    <a href="#" >Link2</a>
+                    <a href="#" >Link3</a>
+                </div>
+            </div>
+            <div  class="dropdown">
+                <button class="dropbtn" >Red Sea<i class="icon-heart"></i>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#" >Link1</a>
+                    <a href="#" >Link2</a>
+                    <a href="#" >Link3</a>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="leftBar">
+            <p class="leftList">
+                here will be the list of the articles
+            </p>
+            <p><u>Currency Calculator</u></p>
+            <form id="form">
+                <i class="icon-euro"></i> <input type="text" id="field1" class="fields" value="">
+                <button type="button" id="button1" class="buttons" onclick="changeEuro()">Calculate</button>
+                <div id="result1" class="results"></div>
+                <br>
+                <i class="icon-dollar"></i> <input type="text" id="field2" class="fields" value="">
+                <button type="button" id="button2" class="buttons" onclick="changeDollar()">Calculate</button>
+                <div id="result2" class="results"></div>
+            </form>
+        </div>
+        <div id="main">
+            <h1 class="title">
+                Title of the page
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at mollis elit. Proin viverra non justo ut lacinia. Sed et odio vel tortor lacinia condimentum. Sed tempus luctus cursus. Aenean consequat feugiat tristique. Suspendisse vel quam dolor. Nullam suscipit lectus at leo dictum, fermentum rutrum elit condimentum. Nulla facilisi. Donec auctor quis arcu quis bibendum.</p>
+
+            <p>Donec quis mattis turpis. Mauris accumsan viverra arcu, ac tempor ligula rutrum fringilla. Sed ultricies sapien quis hendrerit consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque dictum, diam vitae fermentum mattis, dolor orci mollis lorem, vitae lobortis sem elit ornare diam. Nullam maximus sapien et consequat bibendum. Donec lorem libero, mollis sit amet tellus sed, ornare rhoncus odio. Nunc eros arcu, condimentum at tincidunt a, eleifend vitae urna. Maecenas at ipsum vitae tellus laoreet semper in vehicula nibh. Etiam hendrerit blandit ipsum a pellentesque. Praesent pellentesque velit sapien, at pulvinar mi efficitur id. Duis et varius massa. Sed faucibus ex et enim tempor auctor. Nulla justo nulla, rutrum eget convallis in, volutpat id justo. Praesent quis turpis rhoncus justo bibendum scelerisque vel vitae purus. Phasellus sem leo, interdum a erat at, semper fringilla magna.</p>
+                
+            <p>Proin eget erat pulvinar, commodo velit ac, egestas erat. Aliquam sit amet accumsan urna, sed commodo risus. Donec laoreet enim ut justo sagittis, in mattis mi rutrum. Vestibulum sollicitudin vitae massa id laoreet. Aenean a leo justo. Praesent fringilla justo ac ante rutrum pellentesque. Donec eget posuere ligula. Aenean scelerisque porta ultrices. Mauris a metus accumsan, dictum justo sed, ullamcorper purus. Morbi sed luctus lorem. Vivamus feugiat massa sit amet magna pharetra aliquet. Aenean magna nulla, scelerisque sit amet orci varius, porta fermentum justo. Fusce ac aliquet tortor, sed elementum eros.</p>
+        </div>
+        <div id="footer">
+            <footer>There's so much more outside of the hotel. &copy; All rights reserved.</footer>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
